@@ -7,6 +7,7 @@ class StudentsController < ApplicationController
 
   def show
     set_student
+    binding.pry
   end
 
   private
