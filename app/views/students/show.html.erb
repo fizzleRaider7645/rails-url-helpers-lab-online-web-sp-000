@@ -2,5 +2,6 @@
 <% if @student.active %>
 <div>This student is currently active.</div>
 <% end %>
+<% if !@student.active  %>
 <div>This student is currently inactive.</div>
 <% end %>
