@@ -9,7 +9,7 @@ class StudentsController < ApplicationController
   end
   
   def activate
-    @student = set_student
+    # @student = set_student
     @student.active = true
     @student.save
     redirect_to student_path
