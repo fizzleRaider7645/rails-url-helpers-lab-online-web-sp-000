@@ -13,6 +13,6 @@ class StudentsController < ApplicationController
 
     def set_student
       @student = Student.find(params[:id])
-      @student.active
+      @student.active = True
     end
 end
